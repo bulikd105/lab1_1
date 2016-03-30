@@ -39,6 +39,7 @@ public class OfferItem {
 
 	// discount
 	private String discountCause;
+	
 
 	private BigDecimal discount;
 
