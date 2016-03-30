@@ -6,7 +6,9 @@ public class Money {
 	private BigDecimal totalCost;
 	private String currency;
 
-	public Money() {
+	public Money(String currency, BigDecimal totalCost){
+		this.setCurrency(currency);
+		this.setTotalCost(totalCost);
 	}
 
 	public BigDecimal getTotalCost() {

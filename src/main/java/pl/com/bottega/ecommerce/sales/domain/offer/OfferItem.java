@@ -33,7 +33,7 @@ public class OfferItem {
 
 	private int quantity;
 
-	private Money Money = new Money();
+	private Money Money;
 
 	// discount
 	private String discountCause;
